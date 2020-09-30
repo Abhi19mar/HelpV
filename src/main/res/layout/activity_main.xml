@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="WELCOME TO HelpV - A SOLUTION FOR ALL YOUR NEEDS "
+        android:textSize="20dp"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="173dp"
+        android:layout_marginLeft="95dp"
+
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="350dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint=" Username"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:background="#11000000"
+        android:layout_marginLeft="90dp"
+        android:hint="  Password"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:inputType="textPassword" />
+
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Login"
+        android:onClick="LoginBtn"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="New to HelpV? Register here"
+        android:layout_marginTop="570dp"
+        android:textSize="17dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginLeft="45dp"/>
+
+</RelativeLayout>
